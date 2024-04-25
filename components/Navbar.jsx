@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "./ui/button";
+import { ModeToggle } from "./ModeToggle";
 
 const Navbar = () => {
   return (
@@ -17,6 +18,7 @@ const Navbar = () => {
             <li>Reviews</li>
           </ul>
           <Button>signup</Button>
+          <ModeToggle />
         </div>
       </div>
     </div>
