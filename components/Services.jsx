@@ -35,7 +35,8 @@ const Services = () => {
                 key={i}
                 title={process.title}
                 desc={process.desc}
-                gif={process.gif}
+                img={process.gif}
+                cardType="one"
               />
             );
           })}
@@ -67,7 +68,7 @@ const Services = () => {
                 key={i}
                 title={service.title}
                 desc={service.desc}
-                gif={service.gif}
+                img={service.img}
               />
             );
           })}

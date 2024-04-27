@@ -41,20 +41,20 @@ export const processes = [
 export const services = [
   {
     id: 1,
-    title: "Branding",
-    desc: "Hop on a free consultation call and subscribe to a plan that meets your business goals. ",
-    gif: service1,
+    title: "Develop",
+    desc: "We build a unique brand identity that resonates with your business and connects to your audience ",
+    img: service1,
   },
   {
     id: 2,
-    title: "Web design",
-    desc: "Submit your design request in our private Slack channel. We will start working on it right away. ",
-    gif: service2,
+    title: "Design",
+    desc: "We build a unique brand identity that resonates with your business and connects to your audience ",
+    img: service2,
   },
   {
-    id: 3,
-    title: "Framer",
-    desc: "Get the results within 1-3 days. We will make unlimited revisions until you are 100% satisfied. ",
-    gif: service3,
+    id: 2,
+    title: "Brand",
+    desc: "We build a unique brand identity that resonates with your business and connects to your audience ",
+    img: service3,
   },
 ];
