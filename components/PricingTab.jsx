@@ -13,7 +13,7 @@ import { faCheck } from "@fortawesome/free-solid-svg-icons";
 
 export function TabsDemo() {
   return (
-    <Tabs defaultValue="account" className="w-[400px]">
+    <Tabs defaultValue="startup" className="w-[400px]">
       <TabsList className="grid w-full grid-cols-2">
         <TabsTrigger value="startup">Startup</TabsTrigger>
         <TabsTrigger value="pro">Pro</TabsTrigger>
