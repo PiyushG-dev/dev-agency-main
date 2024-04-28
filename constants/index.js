@@ -7,7 +7,20 @@ import {
   faGitlab,
 } from "@fortawesome/free-brands-svg-icons";
 
-import { step1, step2, step3, service1, service2, service3 } from "@/utils";
+import {
+  step1,
+  step2,
+  step3,
+  service1,
+  service2,
+  service3,
+  project1,
+  project2,
+  project3,
+  project4,
+  project5,
+  project6,
+} from "@/utils";
 
 export const companies = [
   { id: 1, name: "webflow", svg: faWebflow },
@@ -56,5 +69,67 @@ export const services = [
     title: "Brand",
     desc: "We build a unique brand identity that resonates with your business and connects to your audience ",
     img: service3,
+  },
+];
+
+export const labelOne = {
+  type: "Process",
+  label: "You request, we make it happen",
+  desc: "Our process is as simple as possible.",
+};
+export const labelTwo = {
+  type: "Services",
+  label: "Apps, websites & branding",
+  desc: "Get everything you need in one place",
+};
+export const labelThree = {
+  type: "Features",
+  label: "Why work with us?",
+  desc: "Our process is as simple as possible.",
+};
+export const labelFour = {
+  type: "Projects",
+  label: "Featured Projects",
+  desc: "Get a glimpse of our work",
+};
+
+export const projectColOne = [
+  {
+    id: 1,
+    title: "SaaSmart",
+    desc: "designed and developed a free website template for SaaS startups",
+    img: project1,
+  },
+  {
+    id: 2,
+    title: "Crypt",
+    desc: "designed and developed a website template for mobile apps",
+    img: project2,
+  },
+  {
+    id: 3,
+    title: "Convert",
+    desc: "designed and developed a modern website for a CRM SaaS startup",
+    img: project3,
+  },
+];
+export const projectColTwo = [
+  {
+    id: 1,
+    title: "Substackr",
+    desc: "designed and developed a free website template for SaaS startups",
+    img: project4,
+  },
+  {
+    id: 2,
+    title: "Framer.ing",
+    desc: "designed and developed a website template for mobile apps",
+    img: project5,
+  },
+  {
+    id: 3,
+    title: "Framer: Beginner to Pro ",
+    desc: "designed and developed a website for a Framer course",
+    img: project6,
   },
 ];

@@ -60,6 +60,11 @@
   }
 }
 
+@font-face {
+  font-family: futura;
+  src: url(../public/assets/futura.woff2);
+}
+
 * {
   padding: 0;
   margin: 0;

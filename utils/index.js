@@ -13,6 +13,12 @@ import service3 from "@/public/assets/service3.webp";
 import bulletin from "@/public/assets/bulletin.svg";
 import arrow1 from "@/public/assets/arrow1.svg";
 import arrow2 from "@/public/assets/arrow2.svg";
+import project1 from "@/public/assets/project1.webp";
+import project2 from "@/public/assets/project2.webp";
+import project3 from "@/public/assets/project3.webp";
+import project4 from "@/public/assets/project4.webp";
+import project5 from "@/public/assets/project5.webp";
+import project6 from "@/public/assets/project6.webp";
 
 const workShowcase = [work1, work2, work3, work4, work5, work6];
 
@@ -27,4 +33,10 @@ export {
   bulletin,
   arrow1,
   arrow2,
+  project1,
+  project2,
+  project3,
+  project4,
+  project5,
+  project6,
 };

@@ -1,6 +1,8 @@
+import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Partners from "@/components/Partners";
+import Projects from "@/components/Projects";
 import Services from "@/components/Services";
 import Testimonial from "@/components/Testimonial";
 
@@ -16,6 +18,8 @@ export default function Home() {
         </div>
       </section>
       <Services />
+      {/* <Features /> */}
+      <Projects />
     </>
   );
 }

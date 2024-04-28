@@ -4,13 +4,13 @@ import review from "@/public/assets/review1.webp";
 
 const Testimonial = () => {
   return (
-    <div className="w-full bg-secondary border-testimonial rounded-[5rem] py-16 px-28 flex flex-col items-center gap-10">
-      <h2 className="text-center text-4xl text-muted-foreground alt-font">
-        They took my billion-dollar baby idea, slapped their design magic on it,
-        and boom –{" "}
+    <div className="w-full bg-secondary border-testimonial rounded-[5rem] py-16 px-32 flex flex-col items-center gap-10">
+      <h2 className="text-center text-3xl text-muted-foreground font-semibold">
+        They took my billion-dollar baby idea, slapped their magic on it, and
+        boom –
         <span className="text-primary">
           branding so good it makes my other ventures look like lemonade stands.
-        </span>{" "}
+        </span>
         CoDesign isn't just a design agency, they're your ticket to the big
         leagues.
       </h2>
