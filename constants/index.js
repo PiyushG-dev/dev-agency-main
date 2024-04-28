@@ -92,6 +92,11 @@ export const labelFour = {
   label: "Featured Projects",
   desc: "Get a glimpse of our work",
 };
+export const labelFive = {
+  type: "Pricing",
+  label: "One fee, Unlimited designs",
+  desc: "Pick the plan that suits your needs the most",
+};
 
 export const projectColOne = [
   {
